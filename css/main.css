@@ -76,7 +76,7 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 /*navegador */
-#navMenu{/*log*/
+#navMenu{/*log*/ /*barra de navegacion menu*/
   position:fixed;
   background: white;
   width: 1300px;
@@ -86,7 +86,7 @@ a:hover {
   padding-right: 14px;
   z-index: 1000;
 }
-ul{
+ul{ /*barra de navegacion menu*/
     /*outline: 1px solid orange;*/
     list-style: none;
     margin: 0 auto;
@@ -95,7 +95,7 @@ ul{
     text-transform: uppercase;
     
 }
-li{
+li{ /*barra de navegacion menu*/
    /* outline: 1px solid orange;*/
     text-align: left;
     display: inline-block;
@@ -103,7 +103,7 @@ li{
 
 }
 
-.logo{
+.logo{ /*posicion del logo*/
     position: absolute;
     /*outline: 1px solid orange;*/
     width: 5%;
@@ -114,7 +114,7 @@ li{
   margin-left: 8%;
 }
 /*navegador cierre*/
-/*Primera Imagen*/
+/*seccion 1 Imagen*/
 .section1{
   
   position: relative;
@@ -127,21 +127,23 @@ li{
 
 
 }
+/*seccion 1 -caja de texto y boton*/
 #first1{
   position: absolute ;
   text-align: center;
   bottom: 30%;
   left:20%;
-  color: white;
   /*outline: 1px solid orange;*/
 }
-.view{
+ /*boton*/
+.view{ /*boton*/
  /* outline: 1px solid orange;*/
   padding: 10px;
   background-color: #2ECC71;
   color: white;
 }
-.view:hover {
+/*boton hover*/
+.view:hover { 
  /* outline: 1px solid orange;*/
   padding: 12px;
   border-radius: 5px;
@@ -149,6 +151,7 @@ li{
   color:  white;
   font-size: 17px;
 }
+/*textos seccion1*/ 
 #ache2{
   text-transform: uppercase;
   padding:60px;
@@ -163,6 +166,7 @@ h1{
   text-transform: uppercase;
   padding-bottom: 40px;
 }
+/*seccion 2 */
 .section2{
   background:#F17C72;
   margin-right: auto;
@@ -173,9 +177,11 @@ h1{
   text-align: center;
 
 }
+/*redimension imgenes redodas seccion 2*/
 .circulo{
   width: 200px;
 }
+/*listados-seccion 2*/
 .section_article{
   /*outline: 1px solid orange;*/
   text-align: center;
@@ -184,12 +190,14 @@ h1{
   margin:50px;
   line-height: 1px;
 }
+/*titulo seccion 2*/
 #ache22{
   text-transform: uppercase;
   padding:25px;
   font-size: 35px;
 
 }
+/*personalizacion de etiquetas de titulo para lograr  la replica con exactitud */
 h6,h5{
  
   padding: 0;
@@ -200,7 +208,7 @@ h6,h5{
 h4{
   line-height: 25px;
 }
-
+/*seccion 3 caja */
 .work{
   /*outline: 1px solid orange;*/
   width: 1300px;
@@ -212,6 +220,7 @@ h4{
   
   
 }
+/*cuadrados tamaño y margen*/
 .cuadro1{
    width: 300px;
    margin: 10px;
@@ -221,13 +230,14 @@ h4{
  /* text-align: center;*/
   display: inline-block;
   padding: 20px;
-
 }
+/*personalizacion de etiquetas de titulo*/
 h3,h5{
   text-align: center;
   text-transform: uppercase;
   padding: 3px;
 }
+/*pie de pagina*/
 footer{
   background: #31343D;
   margin:0px;
@@ -238,6 +248,4 @@ footer{
 }
 #foter{
   padding-bottom:0px;
-
-
 }
